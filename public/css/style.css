@@ -1,0 +1,64 @@
+body{
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* Navbar  */
+.navbar{
+    background-color: white;
+    height: 5rem;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    background-color: azure;
+}
+.info-social a{
+ text-decoration: none;
+ font-size: 1.5rem;
+ margin-right: 15px;
+ color: black;
+}
+.click-link{
+    text-decoration: none;
+    color: black;
+}
+.click-link:hover{
+    background-color: white;
+    opacity: 0.8;
+}
+/* home card */
+.listing-card{
+ border: none !important;
+ margin-bottom: 1rem !important;
+}
+.card-img-top{
+   border-radius: 1rem !important;
+   width: 100%;
+   object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+
+/* show card */
+.show-img{
+    height: 40vh;
+    object-fit: cover;
+}
